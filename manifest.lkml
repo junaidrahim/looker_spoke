@@ -6,3 +6,8 @@ project_name: "spoke"
 local_dependency: {
   project: "hub"
 }
+
+remote_dependency:  public_project {
+  url:  "https://github.com/llooker/google_ga360"
+  ref:  "master"
+}
